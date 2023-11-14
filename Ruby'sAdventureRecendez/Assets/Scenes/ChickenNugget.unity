@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 6372470}
   - component: {fileID: 6372472}
   - component: {fileID: 6372471}
+  - component: {fileID: 6372473}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -26291,6 +26292,42 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &6372473
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6372469}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1001 &444852602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26680,7 +26717,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.596676
+  orthographic size: 8.653701
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -26745,11 +26782,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9117495442704427181, guid: 7c490eae11ea32543a3c1ecb6dc9cf70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2508
+      value: 2.71
       objectReference: {fileID: 0}
     - target: {fileID: 9117495442704427181, guid: 7c490eae11ea32543a3c1ecb6dc9cf70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.7675
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 9117495442704427181, guid: 7c490eae11ea32543a3c1ecb6dc9cf70, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26915,12 +26952,16 @@ PrefabInstance:
       value: Ruby (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4002838667813049891, guid: 3b908d0c035ff7a4eab6ec30e65532ff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4543904
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002838667813049891, guid: 3b908d0c035ff7a4eab6ec30e65532ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1648
+      value: -3.18
       objectReference: {fileID: 0}
     - target: {fileID: 4002838667813049891, guid: 3b908d0c035ff7a4eab6ec30e65532ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.81
+      value: -0.67
       objectReference: {fileID: 0}
     - target: {fileID: 4002838667813049891, guid: 3b908d0c035ff7a4eab6ec30e65532ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26952,10 +26993,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4002838667813049891, guid: 3b908d0c035ff7a4eab6ec30e65532ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6650406503096966467, guid: 3b908d0c035ff7a4eab6ec30e65532ff, type: 3}
-      propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
